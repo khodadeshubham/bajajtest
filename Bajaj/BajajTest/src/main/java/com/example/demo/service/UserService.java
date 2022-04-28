@@ -3,8 +3,7 @@ package com.example.demo.service;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.autoconfigure.elasticsearch.ElasticsearchProperties;
+
 import org.springframework.stereotype.Service;
 
 import com.example.demo.entity.User;
@@ -27,9 +26,9 @@ public class UserService
 		if(data != null && data.length != 0)
 		{
 			status="true";	
-			user_id="john_doe_17091999";
-			email="john@xyz.com";
-			roll_number= "ABCD123";
+			user_id="shubham_khodade_29121996";
+			email="shubham.khodade14@gmail.com";
+			roll_number= "210943020090";
 			for(int i=0; i< data.length; i++)
 			{
 				if(Character.isDigit(i))
